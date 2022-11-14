@@ -1,10 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import React, { useEffect } from "react";
-import "./Skills.css";
-import { useDispatch, useSelector } from "react-redux";
+import React from "react";
 import SkillBar from "react-skillbars";
-import Skill from "../Skill/Skill";
-import { getSkills } from "../../store/actions/skills";
+import "./Skills.css";
 
 const Skills = () => {
   // const { skills } = useSelector((store) => store.skills);

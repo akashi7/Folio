@@ -1,13 +1,10 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import React, { useState } from "react";
-import "./Projects.css";
-import Project from "../Project/Project";
-import { useDispatch, useSelector } from "react-redux";
-import { getProjects } from "../../store/actions/projects";
-import { useEffect } from "react";
-import { projects } from "./data";
 import { saveAs } from "file-saver";
+import React from "react";
 import Resume from "../../document/Resume.pdf";
+import Project from "../Project/Project";
+import { projects } from "./data";
+import "./Projects.css";
 
 const Projects = () => {
   // const { projects } = useSelector((store) => store.projects);
