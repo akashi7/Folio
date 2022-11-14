@@ -3,3 +3,7 @@
   margin: auto;
   padding: 1rem;
 }
+
+.download:hover{
+  cursor: pointer;
+}

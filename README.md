@@ -1,2 +1,3 @@
-# portfolio-client
-The client side for my portfolio website.
+# portfolio
+
+my portfolio website.

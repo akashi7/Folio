@@ -1,7 +1,7 @@
-import React from 'react';
-import Burger from '../Burger/Burger';
-import ToggleTheme from '../ToggleTheme/ToggleTheme';
-import './NavBar.css';
+import React from "react";
+import Burger from "../Burger/Burger";
+import ToggleTheme from "../ToggleTheme/ToggleTheme";
+import "./NavBar.css";
 
 const NavBar = () => {
   return (
@@ -17,9 +17,9 @@ const NavBar = () => {
           <li className="nav-item">
             <a href="#projects">Works</a>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a href="#contact">Hit Me Up</a>
-          </li>
+          </li> */}
           <li className="nav-item">
             <ToggleTheme />
           </li>
