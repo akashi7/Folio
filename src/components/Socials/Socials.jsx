@@ -15,6 +15,15 @@ const Socials = () => {
             <img src="/images/social/linkedin2x.png" alt="LinkedIn" />
           </a>
         </div>
+        <div className="linkedin">
+          <a
+            href="https://www.linkedin.com/in/nseko/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/images/social/github.png" alt="Github" />
+          </a>
+        </div>
         <div className="facebook">
           <a
             href="https://www.facebook.com/christian.nseko/"
