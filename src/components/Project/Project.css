@@ -56,6 +56,12 @@
   }
 }
 
+@media (max-width: 480px) {
+  .project-description {
+    font-size: 10px;
+  }
+}
+
 @media (max-width: 600px) {
   .project-overlay {
     font-size: 0.6rem;
