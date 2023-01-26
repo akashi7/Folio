@@ -6,6 +6,11 @@ header {
   background: var(--bg-nav);
   clip-path: polygon(50% 0%, 100% 0, 100% 65%, 50% 100%, 0 65%, 0 0);
 }
+.desc {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
 .logo {
   width: 20%;
   filter: hue-rotate(256deg);
