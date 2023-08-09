@@ -10,16 +10,6 @@ const Skills = () => {
   //   dispatch(getSkills());
   // }, []);
 
-  const skills = [
-    { type: 'Javascript' },
-    { type: 'TypeScript' },
-    { type: 'ReactJs' },
-    { type: 'NodeJs' },
-    { type: 'React_native' },
-    { type: 'ExpressJs' },
-    { type: 'NestJs' },
-  ]
-
   return (
     <section className='padding' id='skills'>
       <h1 className='section-title'>Languages & Technologies.</h1>
