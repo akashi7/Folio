@@ -1,7 +1,6 @@
-import dashboard from "../../images/dashboard.png";
 import advanced from "../../images/advanced.png";
-import tracker from "../../images/tracker.png"
-import mobile from "../../images/two.jpeg"
+import dashboard from "../../images/dashboard.png";
+import tracker from "../../images/tracker.png";
 
 
 export const projects = [
@@ -25,13 +24,5 @@ export const projects = [
     description:
       "Task tracker is a web application that help teams track their tasks to see their status of completion",
     image: tracker,
-  },
-  {
-    id: 4,
-    name: "Urugo pay ",
-    description:
-      "Urugo is a mobile application  will help employers to manage their maids and facilitates or track in their payments history ",
-    image: mobile,
-    height:true
   },
 ];
