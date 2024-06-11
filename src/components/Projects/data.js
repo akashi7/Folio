@@ -1,6 +1,6 @@
 import advanced from "../../images/advanced.png";
 import dashboard from "../../images/dashboard.png";
-import tracker from "../../images/tracker.png";
+import schoolnestapp from "../../images/schoolnestapp.png";
 
 
 export const projects = [
@@ -20,9 +20,9 @@ export const projects = [
   },
   {
     id: 3,
-    name: "Task tracker ",
+    name: "Nest pay ",
     description:
-      "Task tracker is a web application that help teams track their tasks to see their status of completion",
-    image: tracker,
+      "Nest pay is a web application that help school to manage emloyees,students and all transactions with in the schools and parents to track expenses for his/her students",
+    image: schoolnestapp,
   },
 ];

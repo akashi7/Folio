@@ -4,7 +4,7 @@ import './Header.css'
 
 const Header = () => {
   return (
-    <header>
+    <header className=''>
       <svg
         width='582'
         className='logo'
@@ -42,24 +42,7 @@ const Header = () => {
         <p>
           of successfully developing and deploying web an mobile applications.
         </p>
-        <p>
-          I am proficient in a variety of programming languages and
-          technologies,
-        </p>
-        <p>
-          including JavaScript,TypeScript,React,React native,NestJs and
-          ExpressJs
-        </p>
-        <p>
-          and have a strong understanding of both front-end and back-end
-          development.
-        </p>
-        <p>
-          I am an excellent problem solver and enjoy working in collaborative
-          environments.
-        </p>
       </div>
-      <p>Kigali, Rwanda</p>
       <br />
       <ArrowsDown />
     </header>
